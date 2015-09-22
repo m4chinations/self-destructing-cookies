@@ -1,0 +1,273 @@
+{
+ "abort_on_missing": false, 
+ "check_memory": false, 
+ "enable_e10s": false, 
+ "is-sdk-bundled": false, 
+ "jetpackID": "jid0-9XfBwUWnvPx4wWsfBWMCm4Jj69E@jetpack", 
+ "loader": "addon-sdk/lib/sdk/loader/cuddlefish.js", 
+ "main": "main", 
+ "mainPath": "self-destructing-cookies/main", 
+ "manifest": {
+  "self-destructing-cookies/cookietracker": {
+   "docsSHA256": null, 
+   "jsSHA256": "9002fdfa5d2312cbc1af3cded27094f8d27584dc14c344007f0fcc7eaa67f015", 
+   "moduleName": "cookietracker", 
+   "packageName": "self-destructing-cookies", 
+   "requirements": {
+    "./domaintree": "self-destructing-cookies/domaintree", 
+    "chrome": "chrome", 
+    "sdk/timers": "sdk/timers"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "self-destructing-cookies/domaintree": {
+   "docsSHA256": null, 
+   "jsSHA256": "22644f56d3606f42a13774016d4cc81a5221e32a20fbf155e82dc51158f2c579", 
+   "moduleName": "domaintree", 
+   "packageName": "self-destructing-cookies", 
+   "requirements": {}, 
+   "sectionName": "lib"
+  }, 
+  "self-destructing-cookies/domstorage": {
+   "docsSHA256": null, 
+   "jsSHA256": "15d34bd8cfc518865d17bdac5076b167b5d04a825a60b4b6825c24ad733aa2c8", 
+   "moduleName": "domstorage", 
+   "packageName": "self-destructing-cookies", 
+   "requirements": {
+    "chrome": "chrome"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "self-destructing-cookies/gui-android": {
+   "docsSHA256": null, 
+   "jsSHA256": "c4633ffcce97ccbcbcb9ac4dbe492d9cf959f34e005ca01803d5a0bd0a235764", 
+   "moduleName": "gui-android", 
+   "packageName": "self-destructing-cookies", 
+   "requirements": {
+    "chrome": "chrome", 
+    "sdk/self": "sdk/self", 
+    "sdk/tabs": "sdk/tabs", 
+    "sdk/url": "sdk/url", 
+    "sdk/window/utils": "sdk/window/utils"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "self-destructing-cookies/gui-australis": {
+   "docsSHA256": null, 
+   "jsSHA256": "332f40ef9e71bc135e7a67a7fd87d0efb6b7be67f6b199f2e40f38b3d6570689", 
+   "moduleName": "gui-australis", 
+   "packageName": "self-destructing-cookies", 
+   "requirements": {
+    "chrome": "chrome", 
+    "sdk/panel": "sdk/panel", 
+    "sdk/self": "sdk/self", 
+    "sdk/tabs": "sdk/tabs", 
+    "sdk/ui/button/action": "sdk/ui/button/action", 
+    "sdk/url": "sdk/url", 
+    "sdk/window/utils": "sdk/window/utils", 
+    "sdk/windows": "sdk/windows"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "self-destructing-cookies/gui-desktop": {
+   "docsSHA256": null, 
+   "jsSHA256": "661c901bad8cdef24c3f4016d8544edd1d337fd9bb47b68aa0a779304eaa5688", 
+   "moduleName": "gui-desktop", 
+   "packageName": "self-destructing-cookies", 
+   "requirements": {
+    "chrome": "chrome", 
+    "sdk/panel": "sdk/panel", 
+    "sdk/self": "sdk/self", 
+    "sdk/tabs": "sdk/tabs", 
+    "sdk/url": "sdk/url", 
+    "sdk/widget": "sdk/widget", 
+    "sdk/window/utils": "sdk/window/utils", 
+    "sdk/windows": "sdk/windows"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "self-destructing-cookies/history": {
+   "docsSHA256": null, 
+   "jsSHA256": "ea9a0b074d77f1e1c8a54b8f70c4cb0217684f367353cf6e2648e7603ccb84bb", 
+   "moduleName": "history", 
+   "packageName": "self-destructing-cookies", 
+   "requirements": {}, 
+   "sectionName": "lib"
+  }, 
+  "self-destructing-cookies/main": {
+   "docsSHA256": null, 
+   "jsSHA256": "8940af4f51385fa6357a65c5b15cb03e4e2225157185d0c0a2bab60266efd8fe", 
+   "moduleName": "main", 
+   "packageName": "self-destructing-cookies", 
+   "requirements": {
+    "./cookietracker": "self-destructing-cookies/cookietracker", 
+    "./domstorage": "self-destructing-cookies/domstorage", 
+    "./gui-android": "self-destructing-cookies/gui-android", 
+    "./gui-australis": "self-destructing-cookies/gui-australis", 
+    "./gui-desktop": "self-destructing-cookies/gui-desktop", 
+    "./src-pagemod": "self-destructing-cookies/src-pagemod", 
+    "./src-simpletab": "self-destructing-cookies/src-simpletab", 
+    "./src-smarttab": "self-destructing-cookies/src-smarttab", 
+    "./undelete": "self-destructing-cookies/undelete", 
+    "chrome": "chrome", 
+    "sdk/preferences/service": "sdk/preferences/service", 
+    "sdk/self": "sdk/self", 
+    "sdk/simple-prefs": "sdk/simple-prefs", 
+    "sdk/system": "sdk/system", 
+    "sdk/system/events": "sdk/system/events", 
+    "sdk/system/unload": "sdk/system/unload", 
+    "sdk/timers": "sdk/timers", 
+    "sdk/url": "sdk/url"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "self-destructing-cookies/src-pagemod": {
+   "docsSHA256": null, 
+   "jsSHA256": "2df7c9eb495614f02f05e150b079775a823fc250807e3a66509f08aaf2afb6b7", 
+   "moduleName": "src-pagemod", 
+   "packageName": "self-destructing-cookies", 
+   "requirements": {
+    "sdk/page-mod": "sdk/page-mod", 
+    "sdk/url": "sdk/url"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "self-destructing-cookies/src-simpletab": {
+   "docsSHA256": null, 
+   "jsSHA256": "bd826b314d925349d2b8b65a5ed53c5da74f9fda571478bf85c24ae3f6a0d3d0", 
+   "moduleName": "src-simpletab", 
+   "packageName": "self-destructing-cookies", 
+   "requirements": {
+    "sdk/tabs": "sdk/tabs", 
+    "sdk/timers": "sdk/timers", 
+    "sdk/url": "sdk/url"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "self-destructing-cookies/src-smarttab": {
+   "docsSHA256": null, 
+   "jsSHA256": "c0679343df975756e781f0bfd6e669f4cf6fa6f60722069821eee4a50a5b510f", 
+   "moduleName": "src-smarttab", 
+   "packageName": "self-destructing-cookies", 
+   "requirements": {
+    "./history": "self-destructing-cookies/history", 
+    "sdk/tabs": "sdk/tabs", 
+    "sdk/timers": "sdk/timers", 
+    "sdk/url": "sdk/url"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "self-destructing-cookies/undelete": {
+   "docsSHA256": null, 
+   "jsSHA256": "c9d19b73855d40fbfc25c3284e6c573c4874633541ca6eaccf26f903ccfd4627", 
+   "moduleName": "undelete", 
+   "packageName": "self-destructing-cookies", 
+   "requirements": {
+    "chrome": "chrome"
+   }, 
+   "sectionName": "lib"
+  }
+ }, 
+ "metadata": {
+  "addon-sdk": {
+   "description": "Add-on development made easy.", 
+   "keywords": [
+    "javascript", 
+    "engine", 
+    "addon", 
+    "extension", 
+    "xulrunner", 
+    "firefox", 
+    "browser"
+   ], 
+   "license": "MPL 2.0", 
+   "name": "addon-sdk"
+  }, 
+  "self-destructing-cookies": {
+   "author": "Ove", 
+   "description": "Fix the web. Gets rid of a site's cookies and LocalStorage as soon as you close its tabs. Protects against trackers and zombie-cookies. Trustworthy services can be whitelisted.", 
+   "license": "GPL 2", 
+   "main": "main", 
+   "name": "self-destructing-cookies", 
+   "version": "0.4.7"
+  }
+ }, 
+ "name": "self-destructing-cookies", 
+ "parseable": false, 
+ "preferences": [
+  {
+   "description": "Cookies will be removed after remaining unused for this many seconds (default 10)", 
+   "name": "gracePeriod", 
+   "title": "Grace Period", 
+   "type": "integer", 
+   "value": 10
+  }, 
+  {
+   "description": "Displays a notification when the add-on is activated. Messages may alternatively be viewed by hovering your cursor over this add-on's icon. (default on)", 
+   "name": "displayNotification", 
+   "title": "Notifications", 
+   "type": "bool", 
+   "value": true
+  }, 
+  {
+   "description": "Clears a site's LocalStorage along with its cookies. (default on, requires restart)", 
+   "name": "localStorage", 
+   "title": "Include LocalStorage", 
+   "type": "bool", 
+   "value": true
+  }, 
+  {
+   "description": "Provides an \"undo\" function to bring back cookies deleted by this add-on. Do not enable this if untrusted persons have access to your browser session: it could potentially it be used to log back in to sites you have already logged out of. (default off)", 
+   "name": "undelete", 
+   "title": "Undelete for Cookies", 
+   "type": "bool", 
+   "value": false
+  }, 
+  {
+   "description": "Clears the browser cache when the user has been idle for this many minutes. Some tracking techniques depend on persisting items in your cache. Cleaning it gets rid of them. Sites may initially load slower after the cache has been cleared. Your browser will also have to download more data from the net. Set to 0 to disable (default 0, i.e. disabled)", 
+   "name": "clearCache", 
+   "title": "Clear Browser Cache when Idle", 
+   "type": "integer", 
+   "value": 0
+  }, 
+  {
+   "description": "Match cookie domains as proposed in the IETF HTTP State Management Draft (default off)", 
+   "name": "strictAccess", 
+   "title": "Strict Cookie Access Policy", 
+   "type": "bool", 
+   "value": false
+  }, 
+  {
+   "description": "Keep cookies that are exclusively used by IFrames (default off)", 
+   "name": "keepIFrames", 
+   "title": "Allow 3rd Party Tracking", 
+   "type": "bool", 
+   "value": false
+  }, 
+  {
+   "description": "Adds an icon / menu entries to your browser for easy access. Some features may be unavailable when disabled. (default on, requires restart)", 
+   "name": "controls", 
+   "title": "Icon and Menu Entries", 
+   "type": "bool", 
+   "value": true
+  }, 
+  {
+   "description": "Configure domains whose cookies should not self-destruct", 
+   "label": "Edit Whitelist", 
+   "name": "editWhitelist", 
+   "title": "Whitelist", 
+   "type": "control"
+  }, 
+  {
+   "description": "This add-on gathers statistics as it destructs cookies: view them here", 
+   "label": "Show Statistics", 
+   "name": "showStatistics", 
+   "title": "Statistics", 
+   "type": "control"
+  }
+ ], 
+ "preferencesBranch": "jid0-9XfBwUWnvPx4wWsfBWMCm4Jj69E@jetpack", 
+ "sdkVersion": "1.17", 
+ "staticArgs": {}, 
+ "verbose": false
+}

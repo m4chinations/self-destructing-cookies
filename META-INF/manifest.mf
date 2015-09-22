@@ -1,0 +1,167 @@
+Manifest-Version: 1.0
+
+Name: install.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: uHhjYyfOvP3rnHXFEbvK6g==
+SHA1-Digest: KABTTOZAKAWFxcGRP4BlZv4BJ5Y=
+
+Name: icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RIoJbbfiGXbsIcyajLL+sg==
+SHA1-Digest: cvtI6ShI2NV8Mu5bnJzapWLl/1s=
+
+Name: bootstrap.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 7e6z9LJUzPhqfgyfhRMzhA==
+SHA1-Digest: TWD0b5BkAoKXr56l0Tt3AkKBy8s=
+
+Name: harness-options.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: XzlB9NhoDE4UIgR/YY5jqQ==
+SHA1-Digest: LMYEOqG61OhauGlmVqepApj0q04=
+
+Name: locales.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: p3Qh60/6wDH/UunTuTWZjQ==
+SHA1-Digest: DBci+JD/520hUnFSB3zB1xoBE9g=
+
+Name: options.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: nykNkt68o6ua9x7Hr95C0w==
+SHA1-Digest: jIOhF1espQRoYR1VbBZzC9a7Jqg=
+
+Name: defaults/preferences/prefs.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: xCD9RRfj8dOViVVMrhu7eQ==
+SHA1-Digest: qfpQdH+lWOEsITiy7cwUovSMGKQ=
+
+Name: resources/self-destructing-cookies/data/introduction.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Q2S8ElmRAek8YA97EpCcXQ==
+SHA1-Digest: wW28xXKYHS0A3dJ0NbsThC3Nso8=
+
+Name: resources/self-destructing-cookies/data/sdc64.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RIoJbbfiGXbsIcyajLL+sg==
+SHA1-Digest: cvtI6ShI2NV8Mu5bnJzapWLl/1s=
+
+Name: resources/self-destructing-cookies/data/statistics.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: bQCvqmj4zz0WPRxsL4wTlw==
+SHA1-Digest: mw+5u1ZDINxUXcZzGd/rgvCueTU=
+
+Name: resources/self-destructing-cookies/data/statistics.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: E3+Kz3knBlgmQWd4+Vm0pw==
+SHA1-Digest: w0CxeOCVoSeKp9bljojJApKtQWU=
+
+Name: resources/self-destructing-cookies/data/toolbar-g.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: yCPfsAhCa1DYFCAJN4BGkw==
+SHA1-Digest: B94D+SagttLzMslsywrrHvY0vZ4=
+
+Name: resources/self-destructing-cookies/data/toolbar-r.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ExszpxySaefuHjX5sNJJzA==
+SHA1-Digest: uNc0FnKTFyoVZqMHUVtFjdcQzuY=
+
+Name: resources/self-destructing-cookies/data/toolbar-ryg.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: XMXa7SiMIoILt27epiQ9vA==
+SHA1-Digest: tItJZ7f4FIhD4n0qH40N5uXDzZU=
+
+Name: resources/self-destructing-cookies/data/toolbar-w.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: MJjaKNkzZB/YkVoY0JmsTg==
+SHA1-Digest: BJWNJz0nIBPIbje3pQFSTM712aQ=
+
+Name: resources/self-destructing-cookies/data/toolbar-y.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: rD3X83TjDvO5NJDnzPZ17Q==
+SHA1-Digest: ez61/U3R9Lg/EkphD7HF+0AOjj0=
+
+Name: resources/self-destructing-cookies/data/toolbar.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: SRKhN1h0obNwaZ3/0eBC8A==
+SHA1-Digest: EX5I2Yh5n8Sg/y6+QTgtwSGhG9A=
+
+Name: resources/self-destructing-cookies/data/toolbar.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: BhAwsZUu4jUDIrN0noR08g==
+SHA1-Digest: GUzGBoyMg9wujdJ02KVO43hPmdU=
+
+Name: resources/self-destructing-cookies/data/widget.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: V1FvZcv2EccdGaGN52P2gQ==
+SHA1-Digest: YmS03nDkiJXebgKwnYQj7/52YiI=
+
+Name: resources/self-destructing-cookies/data/widget.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 3bppyU5j3H1iPnXnStlbfw==
+SHA1-Digest: 8A1tQ4rOs9KtJAi2nn/YWzZT+2M=
+
+Name: resources/self-destructing-cookies/lib/cookietracker.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: BAfEIhdCR37TLZ2bMFQEfg==
+SHA1-Digest: /UQolY6hBg3ixDeQ/WWWfEu8QQk=
+
+Name: resources/self-destructing-cookies/lib/domaintree.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 6K3pbGbQxCeeN4G4lA82sA==
+SHA1-Digest: FOuA+ThNMdnzZhzccPaEl0T7GnA=
+
+Name: resources/self-destructing-cookies/lib/domstorage.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: B0G5qUgcK5C2CSp7XfO8uw==
+SHA1-Digest: jfaQddbaCqLmNAKA+4C2gyyH0Bo=
+
+Name: resources/self-destructing-cookies/lib/gui-android.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: b8rAEnp5LZe1U2QFiuGw/Q==
+SHA1-Digest: jVBFPbYEUL/E28NmRGzLVvyf0bc=
+
+Name: resources/self-destructing-cookies/lib/gui-australis.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: iTaAUvoEIK1u3EDCf4lbXw==
+SHA1-Digest: qVrU4+ZZAhaZvKR6gHxyfB8A3AU=
+
+Name: resources/self-destructing-cookies/lib/gui-desktop.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: SbnW8NbdIbqfgywLfNg2Kw==
+SHA1-Digest: FQFE+GYA7eg6HcU734ejeYdttVs=
+
+Name: resources/self-destructing-cookies/lib/history.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: tnavg+i+PUvkhL/UT8SVTg==
+SHA1-Digest: iO7XI0ll3pvGYfmo2vrUedbUBBY=
+
+Name: resources/self-destructing-cookies/lib/main.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 4f79RNQdHkG8/MXEr2o4vw==
+SHA1-Digest: lq1aEiB0cf3zu5GNrj4SatcU01M=
+
+Name: resources/self-destructing-cookies/lib/src-pagemod.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: CPrHt9oNtOWAcZJ9dcL14g==
+SHA1-Digest: t421PZHUu/lP92chduRobzuUuc8=
+
+Name: resources/self-destructing-cookies/lib/src-simpletab.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: c99rxTbxrkkFso+U11GWxw==
+SHA1-Digest: oJhfmzR9xRj4OVDfV0/SD7hsnAs=
+
+Name: resources/self-destructing-cookies/lib/src-smarttab.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: K78pVzNMqFxsMvPJTZYnhg==
+SHA1-Digest: g2qStprEMge2AIgI8We9zMDl8J0=
+
+Name: resources/self-destructing-cookies/lib/undelete.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 7M8DIcFYVgFSej+SI7/7Dw==
+SHA1-Digest: 0P/suV9CSEpJua+hvBO5mJpqFa4=
+
+Name: LICENSE
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: M/HpuZZEX646vewNxT+ITw==
+SHA1-Digest: LuV/m/9H9Q/hua6u521GICh2vQQ=
+

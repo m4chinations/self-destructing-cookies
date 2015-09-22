@@ -1,0 +1,49 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<html>
+    <head>
+        <title>Self-Destructing Cookies</title>
+        <style type="text/css" media="all">
+            body { background-color: white;
+                   color: black;
+            }
+            h1 { font: 24px sans-serif; }
+            h2 { font: 20px sans-serif; }
+            p, ul { font: 12px sans-serif; -moz-user-select: none; }
+            ul { list-style-type: none; }
+            img { vertical-align: middle; height: 24px; margin-right: 10px; }
+            a { text-decoration: none; color: #000; }
+            a:hover { text-decoration: underline; }
+            span { display: inline-block; width: 100%; }
+            #domain { background-color: #EEE; font-size: 130%; }
+            .bold { font-weight: bold; }
+            .hidden { display: none; }
+        </style>
+    </head>
+    <body>
+      <p>
+        <span id="domain"></span>
+      </p>
+
+      <p id="nodomain">
+        <span>When you load a site in the current tab, you will be able to add it to your whitelist from here.</span>
+      </p>
+
+      <p id="whitelist">
+        <span>This site's cookies self-destruct</span><br/>
+        <ul>
+          <li id="default"><a href="#"><img src="toolbar-r.png"/>after you close its tabs</a></li>
+          <li id="session"><a href="#"><img src="toolbar-y.png"/>after you close the browser</a></li>
+          <li  id="permanent"><a href="#"><img src="toolbar-g.png"/>never</a></li>
+        </ul>
+      </p>
+
+      <hr id="separator"/>
+
+      <p>
+      <span id="disarm"><a href="#"><img src="toolbar-w.png"/>Temporarily suspend operation</a></span>
+      <span id="arm"><a href="#"><img src="toolbar-ryg.png"/>Resume operation</a></span>
+      <span id="undeleteArmed"><a href="#"><img src="toolbar-w.png"/>Undelete cookies and suspend</a></span>
+      <span id="undeleteDisarmed"><a href="#"><img src="toolbar-w.png"/>Undelete (more) cookies</a></span>
+      </p>
+
+</html>

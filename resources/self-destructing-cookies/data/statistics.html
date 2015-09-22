@@ -1,0 +1,41 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<html>
+    <head>
+        <title>Self-Destructing Cookies -- Statistics</title>
+        <style type="text/css" media="all">
+            body { background-color: white;
+                   color: black;
+            }
+            h1 { font: 24px sans-serif; }
+            h2 { font: 20px sans-serif; }
+            p { font: 14px sans-serif; }
+            span { font-weight: bold; }
+            #close { position: absolute;
+                     right: 5;
+                     bottom: 5;
+            }
+            .hidden { display: none; }
+        </style>
+    </head>
+    <body>
+    <h1>Self-Destructing Cookies</h1>
+    <h2>Statistics</h2>
+    <p>
+        Removed <span id="cookies"></span> cookies since <span id="date"></span>.
+        Of these, at least <span id="tracking"></span> were probably attempts to track
+        you across the web.
+    </p>
+
+    <p id="localStorage" class="hidden">
+    <span id="scopes"></span> LocalStorage scopes were removed along with them. This includes <span id="trackingScopes"></span> scopes that were created by possible trackers.
+    </p>
+
+    <p>
+        Currently monitoring <span id="trackdomains"></span> domains,
+        <span id="trackcookies"></span> cookies and <span id="trackscopes"></span> LocalStorage scopes, <span id="trackexpiring"></span>
+        of which will expire soon.
+    </p>
+
+     <input type="button" value="Close" id="close">
+</html>
+

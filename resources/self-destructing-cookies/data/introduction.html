@@ -1,0 +1,60 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<html>
+    <head>
+        <title>Self-Destructing Cookies -- Survival Guide</title>
+        <style type="text/css" media="all">
+            body { background-color: white;
+                   color: black;
+            }
+            img { vertical-align: middle; height: 24px; margin-right: 5px; margin-left: 5px}
+            h1 { font: 24px sans-serif; }
+            h2 { font: 20px sans-serif; }
+            h3 { font: 16px sans-serif; background-color: #EEE; width: 600px; }
+            p { font: 14px sans-serif; }
+            div { width: 600px; margin: 0; overflow: hidden; background-color: #FFF; font: 14px sans-serif; }
+        </style>
+    </head>
+    <body>
+    <h1>Self-Destructing Cookies - Survival Guide</h1>
+
+    <h3>The First Run, or: What Happened To My Cookies?</h3>
+    <div>
+      If you read this, all of your cookies that are not currently in use just self-destructed.
+      <b>Don't panic.</b> You can undo this if you prefer to keep them for now.
+      Here's how:
+      <ol>
+        <li>Wait until no more removal-notifications appear. If you are currently using another add-on that re-adds certain cookies when they are removed (e.g. Beef Taco or TrackerBlock), you need to disable it.</li>
+        <li>Locate SDC's icon in your toolbar. Depending on your version of Firefox, it's either near the bottom or top of your browser and looks like this: <img src="toolbar-r.png"/> If you can't find it, you might have to enable the add-on bar via the <b>View&gt;Toolbars&gt;Add-On Bar</b> menu, or by pressing <b>CTRL-/</b></li>
+
+        <li>Click the icon. A menu will pop up. Click <b>Undelete cookies and suspend</b> in this menu.
+        <li>You will get a notification indicating that your cookies have been restored. SDC's icon will also turn grey. This tells you, that the add-on has suspended its operation. SDC will not remove any cookies in this state.</li>
+        <li>Undeletes happen in batches. If you had a lot of cookies, you might need to restore more batches. Click SDC's icon <img src="toolbar-w.png"/> again. Select <b>Undelete (more) cookies</b> from the menu. Repeat this until you get a notification stating that <b>No more undeletes are possible</b>.</li>
+        <li>All of your cookies are now restored, but they will be removed again as soon as SDC resumes (e.g. by clicking <b>Resume operation</b> in SDC's menu or restarting Firefox). To get around this, you need to tell SDC which cookies it should keep without an open tab. Refer to the next section for more information on this.</li>
+        <li>The undelete feature that you just used is very handy, but it is not enabled by default due to security considerations. An exception was made for you, because this is the first time you have run this add-on. You should enable it in the add-on's preferences if you'd like to keep using it. Also consider enabling SDC's cache cleaning feature from there.</li>
+        <li>You should now whitelist all the sites whose cookies you would like to keep, and then have SDC resume. Alternatively, if you feel SDC plays fast and loose with your cookies, you could now safely uninstall it as well.</li>
+      </ol>
+    </div>
+
+    <h3>The Next Steps</h3>
+    <div>
+      Add trustworthy sites to your whitelist as described below. Sites on your whitelist can recognize you when you return, so you won't have to log in every time you visit. Also check out SDC's preferences: you can reach them from the add-on manager (CTRL-SHIFT-a, or via the Tools&gt;Add-ons menu). Enabling the undelete feature and automatic cache cleaning is highly recommended. You can also disable the removal notifications from there if you find them too distracting.
+    </div>
+
+    <h3>Whitelisting Sites for Cookies</h3>
+    <div>
+      The easy way:
+      <ol>
+        <li>Open the site to be whitelisted in Firefox.</li>
+        <li>Click SDC's icon <img src="toolbar-r.png"/> in your add-on bar.</li>
+        <li>Select one of the three policy options presented to you.</li>
+      </ol>
+
+      If you have special requirements (e.g. you only want to whitelist certain subdomains), or can't open the site you want to whitelist in the browser, you can also manually add entries:
+      <ol>
+        <li>Open SDC's preferences page.</li>
+        <li>Click <b>Edit Whitelist</b>.</li>
+        <li>Add your domains to the list. You should normally use the base domain here (e.g. example.com, not www.example.com).</li>
+      </ol>
+    </div>
+</html>
+
